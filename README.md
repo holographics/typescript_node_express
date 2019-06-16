@@ -37,18 +37,6 @@ app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
 ```
-```
-import express = require('express');
-const app: express.Application = express();
-
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
-
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-});
-```
 ### …or create a new repository on the command line
 ```
 echo "# typescript_node_express" >> README.md
