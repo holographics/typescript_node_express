@@ -1,3 +1,10 @@
+```
+npm init
+npm install typescript -s
+
+```
+
+
 ### …or create a new repository on the command line
 ```
 echo "# typescript_node_express" >> README.md
