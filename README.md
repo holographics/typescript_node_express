@@ -7,7 +7,7 @@ vim tsconfig.json
 npm install express -s
 vim app.ts
 ```
-#### insert:
+#### app.ts:
 ```
 import express = require('express');
 const app: express.Application = express();
