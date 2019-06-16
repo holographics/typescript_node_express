@@ -1,7 +1,15 @@
 ```
 npm init
 npm install typescript -s
-sublime_text.exe package.json
+vim package.json
+```
+#### package.json
+```
+"scripts": {
+    "tsc": "tsc"
+},
+```
+```
 npm run tsc -- --init
 vim tsconfig.json
 ```
