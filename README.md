@@ -1,3 +1,4 @@
+#### ...using terminal:
 ```
 mkdir ~/myapp
 cd ~/myapp
