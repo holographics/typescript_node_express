@@ -4,6 +4,13 @@ cd ~/myapp
 npm init
 npm install typescript -s
 vim package.json
+
+npm run tsc -- --init
+vim tsconfig.json
+
+npm install express -s
+vim app.ts
+
 ```
 #### package.json
 ```
@@ -11,17 +18,9 @@ vim package.json
     "tsc": "tsc"
 },
 ```
-```
-npm run tsc -- --init
-vim tsconfig.json
-```
 #### tsconfig.json:
 ```
 "outDir": "./build",
-```
-```
-npm install express -s
-vim app.ts
 ```
 #### app.ts:
 ```
