@@ -5,10 +5,36 @@ sublime_text.exe package.json
 npm run tsc -- --init
 vim tsconfig.json
 npm install express -s
+vim app.ts
+```
+#### insert:
+```
+import express = require('express');
+const app: express.Application = express();
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
+```
+```
+
 tsc app.ts
 node build/app.js
 ```
+import express = require('express');
+const app: express.Application = express();
 
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
 
 ### …or create a new repository on the command line
 ```
