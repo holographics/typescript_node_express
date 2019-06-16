@@ -1,7 +1,12 @@
 ```
 npm init
 npm install typescript -s
-
+sublime_text.exe package.json
+npm run tsc -- --init
+vim tsconfig.json
+npm install express -s
+tsc app.ts
+node build/app.js
 ```
 
 
