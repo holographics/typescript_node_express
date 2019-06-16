@@ -1,4 +1,6 @@
 ```
+mkdir ~/myapp
+cd ~/myapp
 npm init
 npm install typescript -s
 vim package.json
