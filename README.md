@@ -4,6 +4,12 @@ npm install typescript -s
 sublime_text.exe package.json
 npm run tsc -- --init
 vim tsconfig.json
+```
+#### tsconfig.json:
+```
+"outDir": "./build",
+```
+```
 npm install express -s
 vim app.ts
 ```
