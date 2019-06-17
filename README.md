@@ -13,7 +13,7 @@ npm install express -s
 npm install @types/express -s
 vim app.ts
 
-tsc app.ts
+npm run tsc
 node build/app.js
 ```
 #### package.json
