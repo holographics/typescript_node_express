@@ -10,6 +10,7 @@ npm run tsc -- --init
 vim tsconfig.json
 
 npm install express -s
+npm install @types/express -s
 vim app.ts
 
 tsc app.ts
