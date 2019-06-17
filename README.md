@@ -16,6 +16,19 @@ vim app.ts
 npm run tsc
 node build/app.js
 ```
+#### short version:
+```
+mkdir myapp
+cd myapp/
+npm init
+npm install typescript -s
+npm install express -s
+npm install @types/express -s
+vim app.ts
+tsc app.ts
+node app.js
+```
+
 #### package.json
 ```
 "scripts": {
